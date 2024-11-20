@@ -1,0 +1,176 @@
+:root {
+  /* Colors: */
+  --primary-d1: #47b5ff;
+  --primary-m1: #06283d;
+  --primary-brand: #1363df;
+  --primary-l1: #dff6ff;
+  --gray-d2: #181c24;
+  --gray-d1: #535965;
+  --gray-m1: #91959c;
+  --gray-l2: #b5b7bc;
+  --gray-l1: #e5e5e7;
+  --white: #ffffff;
+  --positive-2: #12805c;
+  --positive-1: #268e6c;
+  --negative-2: #c9252d;
+  --negative-1: #d7373f;
+  --unnamed-color-172026: #172026;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.banner {
+  background-image: url("https://via.placeholder.com/1920x400"); /* Replace with your banner image */
+  background-size: cover;
+  background-position: center;
+}
+
+#productGrid .card {
+  transition: transform 0.3s;
+}
+
+#productGrid .card:hover {
+  transform: scale(1.05);
+}
+
+footer h6 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+footer ul li {
+  margin-bottom: 0.5rem;
+}
+
+footer .border-top {
+  border-color: #e9ecef;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+
+/* Product Card */
+.card {
+  flex: 1 1 calc(33.3% - 10px) !important;
+  max-width: calc(33.3% - 10px) !important;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  max-width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card h5 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.card .price {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  list-style: none;
+}
+
+.pagination li {
+  margin: 0 5px;
+}
+
+.pagination a {
+  display: block;
+  padding: 8px 12px;
+  color: #333;
+  text-decoration: none;
+  background-color: none;
+  border: none;
+  background: none;
+}
+
+.pagination a:hover {
+  color: #fff;
+}
+
+.pagination .active a {
+  color: #172026;
+  background: none;
+  border: none;
+}
+
+.pagination .disabled a {
+  cursor: not-allowed;
+  opacity: 0.5;
+  background: none;
+}
+
+/* Loading State */
+.loading {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Product Grid */
+
+/* Load More Button */
+.load-more {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.load-more:hover {
+  background-color: #0056b3;
+}
+
+/* Loading Spinner */
+.loading-spinner {
+  text-align: center;
+  font-size: 1rem;
+  color: #007bff;
+  margin: 20px auto;
+}
+
+/* Error Message */
+.error-message {
+  text-align: center;
+  color: red;
+  font-size: 1rem;
+  margin-top: 20px;
+}
