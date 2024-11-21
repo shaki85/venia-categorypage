@@ -34,7 +34,7 @@ document.getElementById('app').innerHTML = `
     </header>
 
     <!-- Banner -->
-    <section class="banner text-white text-center py-5" style="background: #212529;">
+    <section class="banner text-white text-center" style="background: #212529;">
         <div class="container">
         <div class="row">
             <!-- Filters -->
