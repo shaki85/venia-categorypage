@@ -43,7 +43,7 @@ document.getElementById('app').innerHTML = `
             
             </aside>
             <aside class="col-md-9">
-            <img src="../images/banner-img.jpg" />
+            <img src="../banner-img.jpg" />
             </aside>
         </div>
     </section>
